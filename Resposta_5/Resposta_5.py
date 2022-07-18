@@ -1,7 +1,3 @@
-frase = input('Digite uma frase: ')
-nova_frase = list(frase)
-
-frase_format = nova_frase[::-1]
-
-for letra in frase_format:
-    print(f'{letra}', end='')
+frase = input('Digite a Frase: ')
+frase_format = frase[::-1]
+print(frase_format)
